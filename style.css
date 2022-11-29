@@ -22,7 +22,7 @@ body {
     width: 100%;
     max-width: 525px;
     min-height: 680px;
-    background-image: url(https://previews-tu.wetransfer.net/file/wetransfer/j1ot/fbf4514778960c849c59d17ab02ebc4420221124140719/hl-6926757921?width=512&height=512&source=storm&origin=transfer&url=https%3A%2F%2Fstorm-us-east-1.wetransfer.net%2Ffiles%2FeyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2o3TXh1Y0FRQT0iLCJleHAiOm51bGwsInB1ciI6ImludGVybmFsX2ZpbGVfZG93bmxvYWQifX0--70b6ecaf77d21417f5dfd55e946cc209d7e2c3612c6c66d7f3da4375851edf2f%3Ftoken%3DeyJhbGciOiJIUzI1NiJ9.eyJzdG9ybS5zZmUiOiJleUpmY21GcGJITWlPbnNpYldWemMyRm5aU0k2SWtKQmFITkxkMm8zVFhoMVkwRlJRVDBpTENKbGVIQWlPbTUxYkd3c0luQjFjaUk2SW1sdWRHVnlibUZzWDJacGJHVmZaRzkzYm14dllXUWlmWDAtLTcwYjZlY2FmNzdkMjE0MTdmNWRmZDU1ZTk0NmNjMjA5ZDdlMmMzNjEyYzZjNjZkN2YzZGE0Mzc1ODUxZWRmMmYiLCJleHAiOjE2NjkzMDMwMTIsImlhdCI6MTY2OTI5OTQxMiwia2lkIjoiRnIzciJ9.trmAQ_WYQrdnGa5sbjkvhbO39yd2v9ZBGuIIwpfcSQY&s=3385684f4079dbc009d2e09b4c46634846ac00f8&Expires=1669303012&Signature=F7VUFIMwdtrxE-FiquWiapd40lKgECu~4FoT4sBxhnasH3Nqi4w34IzN2f4r9C~ZBbPcYd05-4NSE~4EWa1sp0kNkSb46c8eEiEIlpUmDL4iWazum0j2bSOkALtGcAD5XSyLwGIs8QQBbgGqUaHft6At0GF~Fh6MqGGn9LagGCUJcAI03XmydsRFL471ZhoVvnXx~FAA7EkFqCph70PFgTqize51059A0bNR9yW1a26nQmW~Sbwuv-UKcRbKSesEAOJyxzmVmPG7yGzqjfB94rzX0FacR3bCGEjQFSHz00dNCM9Vt6vt1-6DOZQ8IdLtq7sAYkXzHW~DY4s0P1w42A__&Key-Pair-Id=APKAIRLQFERKGUWFG7GQ);
+    background-image: url("./IMG-Original.JPG");
     box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.85);
 
 }
@@ -36,7 +36,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: radial-gradient(ellipse at left bottom, rgba(22, 24, 47, 1) 0%, rgba(38, 20, 72, .9) 59%, rgba(17, 27, 75, .9) 100%);
+    background-image: radial-gradient(ellipse at left bottom, rgb(128, 129, 141) 0%, rgba(158, 72, 60, 0.9) 59%, rgba(173, 129, 123, 0.9) 100%);
     box-shadow: 0 -20px 150px -20px rgba(0, 0, 0, 0.5);
 }
 
@@ -149,7 +149,7 @@ body {
     margin-top: 1.5rem;
 }
 
-.login_label--checkbox {
+.login_input--checkbox {
     position: absolute;
     top: .1rem;
     left: 0;
