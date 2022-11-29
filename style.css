@@ -84,7 +84,7 @@ body {
     content: '';
     display: inline-block;
     height: 10px;
-    background-color: rgba(255, 255, 255);
+    background-color: rgb (255, 255, 255);
     position: absolute;
     right: 100%;
     bottom: -1px;
@@ -108,8 +108,85 @@ body {
     padding-left: 1rem;
 }
 
+.login_label,
+.login_label--checkbox {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: .75rem;
+}
 
+.login_label--checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #ffffff;
+    font-size: .75rem;
+    text-transform: inherit;
+}
 
+.login_input {
+    color: #ffffff;
+    font-size: 1.15rem;
+    width: 100%;
+    padding: .5rem 1rem;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 1.5rem;
+    background-color: rgb(255, 255, 255, 0.25);
+    letter-spacing: 1px;
+}
 
+.login_input:hover,
+.login_input:focus{
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
 
+.login_input + .login_label {
+    margin-top: 1.5rem;
+}
 
+.login_label--checkbox {
+    position: absolute;
+    top: .1rem;
+    left: 0;
+    margin: 0;
+}
+
+.login_submit {
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    padding: .75rem;
+    border-radius: 2rem;
+    display: block;
+    width: 100%;
+    background-color: rgba(17, 97, 237, .75);
+    border: none;
+    cursor: pointer;
+}
+
+.login_submit:hover {
+    background-color: rgba(17, 97, 237, 1);
+}
+
+.login_forgot {
+    display: block;
+    margin-top: 3rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: .75rem;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.login_forgot:hover {
+    color: rgb(17, 97, 237);
+}
